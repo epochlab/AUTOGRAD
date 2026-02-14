@@ -1,9 +1,9 @@
-# ATOMIC GRAPH
+# AUTOGRAD
 
 **Project ID:**  U8bTnBcp
 
 <p align="center">
-  <img src="https://github.com/epochlab/ATOMIC_GRAPH/blob/main/sample.png">
+  <img src="https://github.com/epochlab/AUTOGRAD/blob/main/sample.png">
 </p>
 
 --------------------------------------------------------------------
@@ -14,7 +14,7 @@ Abstract: *A scalar-valued autograd engine which tracks values, gradients and ex
 ### Example
 
 ```python
-from atomic_graph.engine import Value
+from autograd.engine import Value
 
 a = Value(2.0, label='a')
 b = Value(-3.0, label='b')

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import random
-from atomic_graph.engine import Value
+from autograd.engine import Value
 
 class Module:
     def zero_grad(self):
